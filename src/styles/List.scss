@@ -4,7 +4,7 @@
   overflow-y: scroll;
   &__list {
     height: 200px;
-    width: 80%;
+    width: 670px;
     border: 2px solid black;
     border-radius: 5px;
     margin: 40px auto 70px auto;
@@ -17,6 +17,7 @@
       "language line link"
       ". line update";
     @media (max-width: 680px) {
+      width: 80%;
       grid-template-columns: 0.6fr 0.4fr;
       grid-template-rows: 0.33fr 0.33fr 0.33fr;
       grid-template-areas:
